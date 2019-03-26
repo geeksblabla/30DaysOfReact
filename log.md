@@ -380,3 +380,30 @@ This application will summarize all the main components of React. And i believe 
 **Resources :**
 \
 [Styled Components](https://www.styled-components.com/docs/basics#motivation).
+
+---
+
+> `DAY 21` : March 26, 2019  
+**description :** Hacker News Clone Using React.
+\
+Today will be the 2nd part of our final application. [Hacker News](https://en.wikipedia.org/wiki/Hacker_News) Clone.
+\
+Today, were going to add redux to our application.
+So our focus will be on the `store` folder.
+we have the **index** file which contain the store of our application (the single source of truth).
+\
+The middleware file will contain our middleware, which a composition of all the middlewares we need to complete our application. **Notice:**, i used react-logger which a logging tool to chrome console, this will help us follow the changes of our store.
+\
+Also, redux thunk which i'll cover later.
+\
+And the root reducer of course.
+\
+Also, the app folder which contain the app actions & reducer. this will help us follow the separation of concerns pattern and groupe our functionalities by features.
+\
+[Here](https://codesandbox.io/s/130r9ojxm3) you can find the structure of our project after adding redux. Try to add redux to the project yourself, this will help understand everything.
+
+**Resources :**
+\
+[Logger for Redux](https://github.com/LogRocket/redux-logger).
+\
+[A quick introduction to pipe() and compose() in JavaScript](https://medium.freecodecamp.org/pipe-and-compose-in-javascript-5b04004ac937).
